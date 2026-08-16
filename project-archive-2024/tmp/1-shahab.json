@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "💦 2 - VLESS - Domain : 443",
+        "remarks": "🇩🇪 Frankfurt-1",
         "version": {
             "min": "26.2.6"
         },
@@ -202,7 +202,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 3 - VLESS - IPv4 : 443",
+        "remarks": "🇩🇪 Frankfurt-2",
         "version": {
             "min": "26.2.6"
         },
@@ -397,7 +397,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 4 - VLESS - IPv4 : 443",
+        "remarks": "🇩🇪 Frankfurt-3",
         "version": {
             "min": "26.2.6"
         },
@@ -592,7 +592,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 6 - VLESS - Domain : 8443",
+        "remarks": "🇩🇪 Frankfurt-4",
         "version": {
             "min": "26.2.6"
         },
@@ -794,7 +794,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 7 - VLESS - IPv4 : 8443",
+        "remarks": "🇩🇪 Frankfurt-5",
         "version": {
             "min": "26.2.6"
         },
@@ -989,7 +989,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 8 - VLESS - IPv4 : 8443",
+        "remarks": "🇩🇪 Frankfurt-6",
         "version": {
             "min": "26.2.6"
         },
@@ -1184,7 +1184,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 10 - VLESS - Domain : 2096",
+        "remarks": "🇩🇪 Frankfurt-7",
         "version": {
             "min": "26.2.6"
         },
@@ -1386,7 +1386,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 11 - VLESS - IPv4 : 2096",
+        "remarks": "🇩🇪 Frankfurt-8",
         "version": {
             "min": "26.2.6"
         },
@@ -1581,7 +1581,7 @@
         "stats": {}
     },
     {
-        "remarks": "💦 12 - VLESS - IPv4 : 2096",
+        "remarks": "🇩🇪 Frankfurt-9",
         "version": {
             "min": "26.2.6"
         },
