@@ -76,16 +76,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiakNlT2ZGZlVLTGM5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiV0hhMUN5NU11anE5T2JjbyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIn-snOw-99B7.SHaHAB4275K.wORKErS.dEv",
+                        "serverName": "pLain-snOw-99b7.SHahaB4275K.wORKeRs.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -278,16 +278,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVjhUdHN4N21mIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiNGk0eFpiZGN4ZVNJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIn-snOW-99B7.shaHaB4275K.wOrKErs.DEV",
+                        "serverName": "PLAIn-snOw-99B7.ShAHaB4275K.woRkeRS.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -458,7 +458,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.173.114",
+                            "address": "104.21.55.219",
                             "port": 443,
                             "users": [
                                 {
@@ -473,16 +473,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYXRFV3Nybmp5RExsbkoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiNUxsaVVJUXU4ZDZId0JJcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIn-sNoW-99B7.SHAHab4275K.WoRkERs.dEV",
+                        "serverName": "PlaIN-SNOw-99b7.ShAhAb4275K.WoRKERs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -653,7 +653,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.21.55.219",
+                            "address": "172.67.173.114",
                             "port": 443,
                             "users": [
                                 {
@@ -668,16 +668,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRFdNMWxRbndTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiTlY3MmdsbWNvendybGZJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAIn-SNoW-99b7.sHaHAb4275K.woRKeRs.dEv",
+                        "serverName": "PLaIN-sNoW-99B7.shaHab4275k.WOrkeRS.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -870,16 +870,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVUZsWUQ1cThiVkk2QSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiT3FUUkprdmMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAin-SNOW-99b7.sHAHab4275K.woRkErs.deV",
+                        "serverName": "plaIn-sNOw-99B7.ShaHaB4275K.WorKERs.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1072,16 +1072,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibVpVbENMQURMZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiYTl5THN6dVlpUjltcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaiN-sNOw-99b7.shahaB4275K.WORkERs.deV",
+                        "serverName": "plaiN-snOW-99B7.shAHaB4275K.wORkeRs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1252,7 +1252,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.173.114",
+                            "address": "104.21.55.219",
                             "port": 8443,
                             "users": [
                                 {
@@ -1267,16 +1267,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVlRkVWNvMHlPWmUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiemp5SWZKUzNQZDV4IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIN-SnOw-99B7.shaHAB4275k.wORKErS.dEv",
+                        "serverName": "PlaiN-SnOW-99B7.shAHAB4275K.wOrKeRS.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1447,7 +1447,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.21.55.219",
+                            "address": "172.67.173.114",
                             "port": 8443,
                             "users": [
                                 {
@@ -1462,16 +1462,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiMVBRaWltMThZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiekUwcTR5cEsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "Plain-SnOW-99B7.shahaB4275k.WoRKeRS.DeV",
+                        "serverName": "PlaIN-sNow-99B7.Shahab4275k.WoRKers.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1664,16 +1664,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoieWc0V0MyYlZESEhaRmoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidTFsYjNjWWk5cnY4VDl6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-Snow-99B7.SHaHAb4275k.WORkeRs.dEV",
+                        "serverName": "pLAIN-sNOW-99b7.ShaHAb4275k.WORkeRs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1866,16 +1866,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiUGVCakFJYjBaM0lyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiMW9LVG96V2kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaiN-sNow-99b7.sHAHAb4275k.wOrKErS.DeV",
+                        "serverName": "pLaIn-SnOw-99B7.SHAhAb4275K.wORKers.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2046,7 +2046,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.173.114",
+                            "address": "104.21.55.219",
                             "port": 2096,
                             "users": [
                                 {
@@ -2061,16 +2061,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYUd6RTBsMjAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaVZpVWd1a1k2RyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLain-SNow-99B7.sHAhAB4275K.worKErS.DEV",
+                        "serverName": "pLain-Snow-99b7.shaHAb4275k.wOrKers.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2241,7 +2241,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.21.55.219",
+                            "address": "172.67.173.114",
                             "port": 2096,
                             "users": [
                                 {
@@ -2256,16 +2256,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiNHdjcVU3QnZGVEZNbU0iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoick56RmRLdkRRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAiN-SNOw-99B7.ShaHab4275K.WOrkERs.Dev",
+                        "serverName": "PLaiN-SnOW-99b7.sHahab4275k.WORkers.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2459,16 +2459,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiakNlT2ZGZlVLTGM5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiV0hhMUN5NU11anE5T2JjbyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIn-snOw-99B7.SHaHAB4275K.wORKErS.dEv",
+                        "serverName": "pLain-snOw-99b7.SHahaB4275K.wORKeRs.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2502,16 +2502,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVjhUdHN4N21mIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiNGk0eFpiZGN4ZVNJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIn-snOW-99B7.shaHaB4275K.wOrKErs.DEV",
+                        "serverName": "PLAIn-snOw-99B7.ShAHaB4275K.woRkeRS.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2524,49 +2524,6 @@
                     }
                 },
                 "tag": "proxy-2"
-            },
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "172.67.173.114",
-                            "port": 443,
-                            "users": [
-                                {
-                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
-                                    "encryption": "none"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYXRFV3Nybmp5RExsbkoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "pLaIn-sNoW-99B7.SHAHab4275K.WoRkERs.dEV",
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-3"
             },
             {
                 "protocol": "vless",
@@ -2588,16 +2545,59 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRFdNMWxRbndTIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiNUxsaVVJUXU4ZDZId0JJcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAIn-SNoW-99b7.sHaHAb4275K.woRKeRs.dEv",
+                        "serverName": "PlaIN-SNOw-99b7.ShAhAb4275K.WoRKERs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+                    },
+                    "sockopt": {
+                        "domainStrategy": "UseIP",
+                        "happyEyeballs": {
+                            "tryDelayMs": 250,
+                            "prioritizeIPv6": false,
+                            "interleave": 2,
+                            "maxConcurrentTry": 4
+                        }
+                    }
+                },
+                "tag": "proxy-3"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.173.114",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
+                        "path": "/eyJqdW5rIjoiTlY3MmdsbWNvendybGZJIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "PLaIN-sNoW-99B7.shaHab4275k.WOrkeRS.dev",
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2631,16 +2631,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVUZsWUQ1cThiVkk2QSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiT3FUUkprdmMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAin-SNOW-99b7.sHAHab4275K.woRkErs.deV",
+                        "serverName": "plaIn-sNOw-99B7.ShaHaB4275K.WorKERs.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2674,16 +2674,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibVpVbENMQURMZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiYTl5THN6dVlpUjltcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaiN-sNOw-99b7.shahaB4275K.WORkERs.deV",
+                        "serverName": "plaiN-snOW-99B7.shAHaB4275K.wORkeRs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2696,49 +2696,6 @@
                     }
                 },
                 "tag": "proxy-6"
-            },
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "172.67.173.114",
-                            "port": 8443,
-                            "users": [
-                                {
-                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
-                                    "encryption": "none"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVlRkVWNvMHlPWmUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "pLaIN-SnOw-99B7.shaHAB4275k.wORKErS.dEv",
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-7"
             },
             {
                 "protocol": "vless",
@@ -2760,16 +2717,59 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiMVBRaWltMThZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiemp5SWZKUzNQZDV4IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "Plain-SnOW-99B7.shahaB4275k.WoRKeRS.DeV",
+                        "serverName": "PlaiN-SnOW-99B7.shAHAB4275K.wOrKeRS.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+                    },
+                    "sockopt": {
+                        "domainStrategy": "UseIP",
+                        "happyEyeballs": {
+                            "tryDelayMs": 250,
+                            "prioritizeIPv6": false,
+                            "interleave": 2,
+                            "maxConcurrentTry": 4
+                        }
+                    }
+                },
+                "tag": "proxy-7"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.173.114",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
+                        "path": "/eyJqdW5rIjoiekUwcTR5cEsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "PlaIN-sNow-99B7.Shahab4275k.WoRKers.DEV",
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2803,16 +2803,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoieWc0V0MyYlZESEhaRmoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidTFsYjNjWWk5cnY4VDl6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-Snow-99B7.SHaHAb4275k.WORkeRs.dEV",
+                        "serverName": "pLAIN-sNOW-99b7.ShaHAb4275k.WORkeRs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2846,16 +2846,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiUGVCakFJYjBaM0lyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiMW9LVG96V2kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaiN-sNow-99b7.sHAHAb4275k.wOrKErS.DeV",
+                        "serverName": "pLaIn-SnOw-99B7.SHAhAb4275K.wORKers.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2868,49 +2868,6 @@
                     }
                 },
                 "tag": "proxy-10"
-            },
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "172.67.173.114",
-                            "port": 2096,
-                            "users": [
-                                {
-                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
-                                    "encryption": "none"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYUd6RTBsMjAiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "pLain-SNow-99B7.sHAhAB4275K.worKErS.DEV",
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy-11"
             },
             {
                 "protocol": "vless",
@@ -2932,16 +2889,59 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiNHdjcVU3QnZGVEZNbU0iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaVZpVWd1a1k2RyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAiN-SNOw-99B7.ShaHab4275K.WOrkERs.Dev",
+                        "serverName": "pLain-Snow-99b7.shaHAb4275k.wOrKers.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "aparat.com+udp://8.8.8.8"
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+                    },
+                    "sockopt": {
+                        "domainStrategy": "UseIP",
+                        "happyEyeballs": {
+                            "tryDelayMs": 250,
+                            "prioritizeIPv6": false,
+                            "interleave": 2,
+                            "maxConcurrentTry": 4
+                        }
+                    }
+                },
+                "tag": "proxy-11"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.173.114",
+                            "port": 2096,
+                            "users": [
+                                {
+                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                                    "encryption": "none"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "wsSettings": {
+                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
+                        "path": "/eyJqdW5rIjoick56RmRLdkRRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                    },
+                    "security": "tls",
+                    "tlsSettings": {
+                        "serverName": "PLaiN-SnOW-99b7.sHahab4275k.WORkers.dev",
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "http/1.1"
+                        ],
+                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
