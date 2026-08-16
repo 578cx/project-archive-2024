@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "💦 1 - VLESS - 104.16.116.123 : 2096",
+    "remarks": "🇩🇪 Frankfurt-1",
     "version": {
       "min": "26.2.6"
     },
@@ -75,12 +75,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.16.116.123",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.16.116.123",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -202,7 +202,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 2 - VLESS - 104.25.129.187 : 2096",
+    "remarks": "🇩🇪 Frankfurt-2",
     "version": {
       "min": "26.2.6"
     },
@@ -277,12 +277,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.25.129.187",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.25.129.187",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -404,7 +404,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 3 - VLESS - 172.67.235.247 : 2096",
+    "remarks": "🇩🇪 Frankfurt-3",
     "version": {
       "min": "26.2.6"
     },
@@ -479,12 +479,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "172.67.235.247",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "172.67.235.247",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -606,7 +606,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 4 - VLESS - 172.67.209.231 : 2096",
+    "remarks": "🇩🇪 Frankfurt-4",
     "version": {
       "min": "26.2.6"
     },
@@ -681,12 +681,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "172.67.209.231",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "172.67.209.231",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -808,7 +808,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 5 - VLESS - 104.24.208.207 : 2096",
+    "remarks": "🇩🇪 Frankfurt-5",
     "version": {
       "min": "26.2.6"
     },
@@ -883,12 +883,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.24.208.207",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.24.208.207",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1010,7 +1010,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 6 - VLESS - 104.17.200.125 : 2096",
+    "remarks": "🇩🇪 Frankfurt-6",
     "version": {
       "min": "26.2.6"
     },
@@ -1085,12 +1085,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.17.200.125",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.17.200.125",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1212,7 +1212,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 7 - VLESS - 104.16.239.226 : 2096",
+    "remarks": "🇩🇪 Frankfurt-7",
     "version": {
       "min": "26.2.6"
     },
@@ -1287,12 +1287,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.16.239.226",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.16.239.226",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1414,7 +1414,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 8 - VLESS - 104.24.79.87 : 2096",
+    "remarks": "🇩🇪 Frankfurt-8",
     "version": {
       "min": "26.2.6"
     },
@@ -1489,12 +1489,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.24.79.87",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.24.79.87",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1616,7 +1616,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 9 - VLESS - 172.67.75.47 : 2096",
+    "remarks": "🇩🇪 Frankfurt-9",
     "version": {
       "min": "26.2.6"
     },
@@ -1691,12 +1691,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "172.67.75.47",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "172.67.75.47",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1818,7 +1818,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 10 - VLESS - 104.25.29.148 : 2096",
+    "remarks": "🇩🇪 Frankfurt-10",
     "version": {
       "min": "26.2.6"
     },
@@ -1893,12 +1893,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.25.29.148",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.25.29.148",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2020,7 +2020,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 11 - VLESS - 104.18.103.68 : 2096",
+    "remarks": "🇩🇪 Frankfurt-11",
     "version": {
       "min": "26.2.6"
     },
@@ -2095,12 +2095,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.18.103.68",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.18.103.68",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2222,7 +2222,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 12 - VLESS - 104.21.6.172 : 2096",
+    "remarks": "🇩🇪 Frankfurt-12",
     "version": {
       "min": "26.2.6"
     },
@@ -2297,12 +2297,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.21.6.172",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.21.6.172",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2424,7 +2424,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 13 - VLESS - 104.24.208.42 : 2096",
+    "remarks": "🇩🇪 Frankfurt-13",
     "version": {
       "min": "26.2.6"
     },
@@ -2499,12 +2499,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.24.208.42",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.24.208.42",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2626,7 +2626,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 14 - VLESS - 104.21.62.169 : 2096",
+    "remarks": "🇩🇪 Frankfurt-14",
     "version": {
       "min": "26.2.6"
     },
@@ -2701,12 +2701,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.21.62.169",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.21.62.169",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2828,7 +2828,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 15 - VLESS - 104.24.37.11 : 2096",
+    "remarks": "🇩🇪 Frankfurt-15",
     "version": {
       "min": "26.2.6"
     },
@@ -2903,12 +2903,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.24.37.11",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.24.37.11",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3030,7 +3030,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 16 - VLESS - 104.16.145.49 : 2096",
+    "remarks": "🇩🇪 Frankfurt-16",
     "version": {
       "min": "26.2.6"
     },
@@ -3105,12 +3105,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.16.145.49",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.16.145.49",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3232,7 +3232,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 17 - VLESS - 185.18.184.191 : 2096",
+    "remarks": "🇩🇪 Frankfurt-17",
     "version": {
       "min": "26.2.6"
     },
@@ -3307,12 +3307,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "185.18.184.191",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "185.18.184.191",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3434,7 +3434,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 18 - VLESS - 172.67.168.0 : 2096",
+    "remarks": "🇩🇪 Frankfurt-18",
     "version": {
       "min": "26.2.6"
     },
@@ -3509,12 +3509,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "172.67.168.0",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "172.67.168.0",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3636,7 +3636,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 19 - VLESS - 104.25.132.179 : 2096",
+    "remarks": "🇩🇪 Frankfurt-19",
     "version": {
       "min": "26.2.6"
     },
@@ -3711,12 +3711,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.25.132.179",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.25.132.179",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3838,7 +3838,7 @@
     "stats": {}
   },
   {
-    "remarks": "💦 20 - VLESS - 104.25.7.212 : 2096",
+    "remarks": "🇩🇪 Frankfurt-20",
     "version": {
       "min": "26.2.6"
     },
@@ -3913,12 +3913,12 @@
         "streamSettings": {
           "network": "ws",
           "wsSettings": {
-            "host": "104.25.7.212",
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
             "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "104.25.7.212",
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
