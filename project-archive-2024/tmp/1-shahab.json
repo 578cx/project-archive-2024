@@ -76,16 +76,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiamY5RDdhWTYxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiQWxNVWZRZ2syb0tNYzciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAin-SNOw-99B7.shaHAB4275k.wORkers.dEV",
+                        "serverName": "plAin-Snow-99b7.sHaHAb4275k.WOrkERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -278,16 +278,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia2pReTlZVGd5SHYzNzNMbiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoic0NYVVRPUVkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaIn-snoW-99b7.sHaHaB4275K.WORkERs.dEv",
+                        "serverName": "PLAIn-snow-99B7.sHAHAB4275k.WorkERs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -473,16 +473,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiajRNRmpBdGNhYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiVk44SzNxbnlrcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "Plain-SNOW-99b7.SHaHaB4275k.wORKERS.dEv",
+                        "serverName": "pLAIn-SNoW-99b7.SHaHab4275k.WoRKERS.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -668,16 +668,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia1UyV1Fvd3ZSIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiM3diSG1la1dWUk5PZEEzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaIN-SNoW-99b7.sHaHAB4275K.WOrkErs.Dev",
+                        "serverName": "PlAin-SnOW-99B7.sHahaB4275K.WorKErs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -870,16 +870,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiZVN3UWt0ZEN6YUl4TnVpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiUVprc1BkWjRyNFFKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaIN-SnOw-99B7.shahaB4275k.wORKers.dev",
+                        "serverName": "plAiN-SNoW-99b7.shAhAb4275K.worKERs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1072,16 +1072,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiaWNHbnpkMkgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiV3NsMkMzVW1qWXdrUlBvaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIN-SNow-99b7.ShahAB4275K.wOrkeRS.Dev",
+                        "serverName": "Plain-SNow-99b7.sHAhab4275K.wORKERS.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1267,16 +1267,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiZ0d0SWJzSDhEY3ZnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiREpvMUxWQlppIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAiN-SnoW-99B7.sHaHAB4275k.wORkerS.DEV",
+                        "serverName": "PlAIn-SNow-99B7.shahAb4275k.wORKErs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1462,16 +1462,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRnBUc1E1UU5PM3JGRFkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidlYwMDNsNWg2TWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIn-SNoW-99b7.sHAHaB4275K.worKers.deV",
+                        "serverName": "PLAIN-SnOw-99b7.ShAHab4275K.woRkerS.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1664,16 +1664,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibURvM0IzTVl6MnFTQjBldCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoickZCaGVYTlNHQyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaiN-snOw-99b7.sHaHAb4275K.workerS.Dev",
+                        "serverName": "plaIN-sNOW-99B7.SHaHaB4275k.WOrKerS.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1866,16 +1866,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiaDM3bzgxWmVkNENDYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiQXBCZFNUUDciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plAiN-snow-99B7.SHaHAb4275k.WoRkerS.dEV",
+                        "serverName": "plAin-sNoW-99B7.SHAhAB4275k.wORkeRS.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2061,16 +2061,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRWpLTUt5VjRuejZlTTkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoid1p0MUIwOW9qeDNxQ24iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaiN-Snow-99B7.SHaHAB4275K.woRkeRs.DeV",
+                        "serverName": "pLain-snoW-99b7.SHahab4275k.wOrKErS.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2256,16 +2256,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiMzdUcllwMDduWjB0Vk5qIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiRjRlSlRHMkFvdiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-SNow-99B7.ShAHAB4275K.wOrKErS.Dev",
+                        "serverName": "pLaIN-snow-99b7.sHahaB4275K.wOrKERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2459,16 +2459,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiamY5RDdhWTYxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiQWxNVWZRZ2syb0tNYzciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAin-SNOw-99B7.shaHAB4275k.wORkers.dEV",
+                        "serverName": "plAin-Snow-99b7.sHaHAb4275k.WOrkERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2502,16 +2502,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia2pReTlZVGd5SHYzNzNMbiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoic0NYVVRPUVkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaIn-snoW-99b7.sHaHaB4275K.WORkERs.dEv",
+                        "serverName": "PLAIn-snow-99B7.sHAHAB4275k.WorkERs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2545,16 +2545,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiajRNRmpBdGNhYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiVk44SzNxbnlrcCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "Plain-SNOW-99b7.SHaHaB4275k.wORKERS.dEv",
+                        "serverName": "pLAIn-SNoW-99b7.SHaHab4275k.WoRKERS.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2588,16 +2588,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia1UyV1Fvd3ZSIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiM3diSG1la1dWUk5PZEEzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaIN-SNoW-99b7.sHaHAB4275K.WOrkErs.Dev",
+                        "serverName": "PlAin-SnOW-99B7.sHahaB4275K.WorKErs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2631,16 +2631,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiZVN3UWt0ZEN6YUl4TnVpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiUVprc1BkWjRyNFFKIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaIN-SnOw-99B7.shahaB4275k.wORKers.dev",
+                        "serverName": "plAiN-SNoW-99b7.shAhAb4275K.worKERs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2674,16 +2674,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiaWNHbnpkMkgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiV3NsMkMzVW1qWXdrUlBvaiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIN-SNow-99b7.ShahAB4275K.wOrkeRS.Dev",
+                        "serverName": "Plain-SNow-99b7.sHAhab4275K.wORKERS.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2717,16 +2717,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiZ0d0SWJzSDhEY3ZnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiREpvMUxWQlppIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlAiN-SnoW-99B7.sHaHAB4275k.wORkerS.DEV",
+                        "serverName": "PlAIn-SNow-99B7.shahAb4275k.wORKErs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2760,16 +2760,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRnBUc1E1UU5PM3JGRFkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidlYwMDNsNWg2TWsiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAIn-SNoW-99b7.sHAHaB4275K.worKers.deV",
+                        "serverName": "PLAIN-SnOw-99b7.ShAHab4275K.woRkerS.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2803,16 +2803,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibURvM0IzTVl6MnFTQjBldCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoickZCaGVYTlNHQyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaiN-snOw-99b7.sHaHAb4275K.workerS.Dev",
+                        "serverName": "plaIN-sNOW-99B7.SHaHaB4275k.WOrKerS.dEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2846,16 +2846,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiaDM3bzgxWmVkNENDYiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+                        "path": "/eyJqdW5rIjoiQXBCZFNUUDciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plAiN-snow-99B7.SHaHAb4275k.WoRkerS.dEV",
+                        "serverName": "plAin-sNoW-99B7.SHAhAB4275k.wORkeRS.dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2889,16 +2889,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiRWpLTUt5VjRuejZlTTkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoid1p0MUIwOW9qeDNxQ24iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PlaiN-Snow-99B7.SHaHAB4275K.woRkeRs.DeV",
+                        "serverName": "pLain-snoW-99b7.SHahab4275k.wOrKErS.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2932,16 +2932,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiMzdUcllwMDduWjB0Vk5qIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiRjRlSlRHMkFvdiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-SNow-99B7.ShAHAB4275K.wOrKErS.Dev",
+                        "serverName": "pLaIN-snow-99b7.sHahaB4275K.wOrKERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "digikala.com+udp://8.8.8.8"
+                        "echConfigList": "google.com+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
