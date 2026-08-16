@@ -76,16 +76,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia0F4bUcybnY0eFFrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiMVh3U1hYY25pWFlacXBoUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIn-SnOW-99B7.SHahaB4275k.worKERs.dEv",
+                        "serverName": "PLAin-snOw-99B7.sHAHAb4275k.woRkErs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -278,16 +278,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiczBiblo5MkYzdDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiMEU1S1V1REdqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plAIn-sNow-99B7.sHahaB4275K.WOrKers.dEv",
+                        "serverName": "pLaIN-sNoW-99B7.shahAb4275k.WOrkERs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -473,16 +473,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoicUpnTlhqN204Q0JiUXUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaVFEY2ZMZWV2NDl2UUFGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-SNOw-99B7.shAHAB4275k.wORKErS.dEV",
+                        "serverName": "pLAin-sNow-99B7.shahab4275k.WoRKeRs.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -668,16 +668,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia0VPaXlGNmIweW9Zd2V2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiQXJBamx1RzZaT3A3IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIN-snOw-99b7.sHahAb4275K.WORkErs.dEv",
+                        "serverName": "PLaIn-SNOw-99B7.ShAHAb4275k.workERS.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -870,16 +870,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYTN2d0VlalJRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiaG1PdUg3R1J6eTRDV1oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAiN-SNOw-99b7.SHAhAb4275k.WOrkErs.dEv",
+                        "serverName": "plaIn-Snow-99b7.shaHab4275K.wOrKers.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1072,16 +1072,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoidmJsWEtjbThUQUhqdEciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidHBuYTVTOVhUakwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaiN-sNOW-99b7.sHaHab4275K.WORKeRS.dev",
+                        "serverName": "PlAIN-SnOw-99B7.ShAhAB4275K.worKERs.DeV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1267,16 +1267,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVHd2aWRwYlpWRnVyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiRXdiMlNIMWc1blZUTDlRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaIN-SNoW-99B7.SHaHAb4275k.workERS.Dev",
+                        "serverName": "pLain-snow-99b7.shAhAb4275K.WorKeRS.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1462,16 +1462,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoidkpIWk92YUdqUXBlcjUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiejlscWJVVGtpeTUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIN-sNOw-99B7.sHaHAb4275k.wORkErs.deV",
+                        "serverName": "PlAin-snOW-99b7.sHAHab4275k.WOrkErs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1664,16 +1664,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiOE44ekxMQmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaElLSHhmdk9TVkxxR3kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAin-snOW-99B7.shAhAB4275k.workeRs.Dev",
+                        "serverName": "PLaIN-snoW-99b7.SHAhAB4275K.wOrkers.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -1866,16 +1866,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiak5SSDNsTWlEUXN1ZEhmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoieVdvQ1p0dFNQRWFPVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIN-SNoW-99B7.ShAHAb4275k.wOrKeRs.DEV",
+                        "serverName": "PlAiN-sNOW-99b7.sHAHaB4275K.woRkERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2061,16 +2061,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibUp3RngxZUwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoicFVyZDg5N2d4aTJsRnJMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIn-Snow-99B7.ShAhAB4275k.workeRs.DeV",
+                        "serverName": "pLAiN-SnOW-99B7.shahab4275K.WorkerS.DeV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2256,16 +2256,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiNVVjdmxMalMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiVmliMzN1azhmalBwN1B1SCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIn-snOW-99b7.ShaHaB4275k.worKeRs.DEV",
+                        "serverName": "PlaiN-SNoW-99b7.SHaHaB4275K.WOrKeRs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2459,16 +2459,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia0F4bUcybnY0eFFrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiMVh3U1hYY25pWFlacXBoUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIn-SnOW-99B7.SHahaB4275k.worKERs.dEv",
+                        "serverName": "PLAin-snOw-99B7.sHAHAb4275k.woRkErs.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2502,16 +2502,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiczBiblo5MkYzdDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiMEU1S1V1REdqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plAIn-sNow-99B7.sHahaB4275K.WOrKers.dEv",
+                        "serverName": "pLaIN-sNoW-99B7.shahAb4275k.WOrkERs.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2545,16 +2545,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoicUpnTlhqN204Q0JiUXUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaVFEY2ZMZWV2NDl2UUFGIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLAIn-SNOw-99B7.shAHAB4275k.wORKErS.dEV",
+                        "serverName": "pLAin-sNow-99B7.shahab4275k.WoRKeRs.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2588,16 +2588,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoia0VPaXlGNmIweW9Zd2V2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiQXJBamx1RzZaT3A3IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIN-snOw-99b7.sHahAb4275K.WORkErs.dEv",
+                        "serverName": "PLaIn-SNOw-99B7.ShAHAb4275k.workERS.Dev",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2631,16 +2631,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiYTN2d0VlalJRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiaG1PdUg3R1J6eTRDV1oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAiN-SNOw-99b7.SHAhAb4275k.WOrkErs.dEv",
+                        "serverName": "plaIn-Snow-99b7.shaHab4275K.wOrKers.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2674,16 +2674,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoidmJsWEtjbThUQUhqdEciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoidHBuYTVTOVhUakwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaiN-sNOW-99b7.sHaHab4275K.WORKeRS.dev",
+                        "serverName": "PlAIN-SnOw-99B7.ShAhAB4275K.worKERs.DeV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2717,16 +2717,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiVHd2aWRwYlpWRnVyIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoiRXdiMlNIMWc1blZUTDlRIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "PLaIN-SNoW-99B7.SHaHAb4275k.workERS.Dev",
+                        "serverName": "pLain-snow-99b7.shAhAb4275K.WorKeRS.DEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2760,16 +2760,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoidkpIWk92YUdqUXBlcjUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiejlscWJVVGtpeTUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIN-sNOw-99B7.sHaHAb4275k.wORkErs.deV",
+                        "serverName": "PlAin-snOW-99b7.sHAHab4275k.WOrkErs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2803,16 +2803,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiOE44ekxMQmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiaElLSHhmdk9TVkxxR3kiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLAin-snOW-99B7.shAhAB4275k.workeRs.Dev",
+                        "serverName": "PLaIN-snoW-99b7.SHAhAB4275K.wOrkers.dEV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2846,16 +2846,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiak5SSDNsTWlEUXN1ZEhmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
+                        "path": "/eyJqdW5rIjoieVdvQ1p0dFNQRWFPVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIN-SNoW-99B7.ShAHAb4275k.wOrKeRs.DEV",
+                        "serverName": "PlAiN-sNOW-99b7.sHAHaB4275K.woRkERs.deV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2889,16 +2889,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoibUp3RngxZUwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoicFVyZDg5N2d4aTJsRnJMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIzMy44MS4yMDciXX0=?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "plaIn-Snow-99B7.ShAhAB4275k.workeRs.DeV",
+                        "serverName": "pLAiN-SnOW-99B7.shahab4275K.WorkerS.DeV",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
@@ -2932,16 +2932,16 @@
                     "network": "ws",
                     "wsSettings": {
                         "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiNVVjdmxMalMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
+                        "path": "/eyJqdW5rIjoiVmliMzN1azhmalBwN1B1SCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
                     },
                     "security": "tls",
                     "tlsSettings": {
-                        "serverName": "pLaIn-snOW-99b7.ShaHaB4275k.worKeRs.DEV",
+                        "serverName": "PlaiN-SNoW-99b7.SHaHaB4275K.WOrKeRs.DEv",
                         "fingerprint": "chrome",
                         "alpn": [
                             "http/1.1"
                         ],
-                        "echConfigList": "google.com+udp://8.8.8.8"
+                        "echConfigList": "snapp.ir+udp://8.8.8.8"
                     },
                     "sockopt": {
                         "domainStrategy": "UseIP",
