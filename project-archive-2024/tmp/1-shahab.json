@@ -1,204 +1,4119 @@
+// ===== 🇩🇪 Frankfurt-1 (104.16.116.123) =====
 [
-    {
-        "remarks": "💦 10 - VLESS - Domain : 2096",
-        "version": {
-            "min": "26.2.6"
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
         },
-        "log": {
-            "loglevel": "warning"
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
         },
-        "dns": {
-            "servers": [
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
                 {
-                    "address": "https://8.8.8.8/dns-query",
-                    "tag": "remote-dns"
-                },
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "full:104.25.129.187"
-                    ],
-                    "skipFallback": true
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
                 }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
             ],
-            "queryStrategy": "UseIP",
-            "tag": "dns"
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
         },
-        "inbounds": [
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
             {
-                "listen": "0.0.0.0",
-                "port": 10808,
-                "protocol": "mixed",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true,
-                    "routeOnly": true
-                },
-                "tag": "mixed-in"
-            },
-            {
-                "listen": "0.0.0.0",
-                "port": 10853,
-                "protocol": "dokodemo-door",
-                "settings": {
-                    "address": "1.1.1.1",
-                    "network": "tcp,udp",
-                    "port": 53
-                },
-                "tag": "dns-in"
+              "action": "hijack"
             }
-        ],
-        "outbounds": [
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-2 (104.25.129.187) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
             {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "104.25.129.187",
-                            "port": 2096,
-                            "users": [
-                                {
-                                    "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
-                                    "encryption": "none"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "wsSettings": {
-                        "host": "plain-snow-99b7.shahab4275k.workers.dev",
-                        "path": "/eyJqdW5rIjoiTGN6RDVlN2xDT2VkeFciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxODUuMjMzLjgxLjIwNyJdfQ==?ed=2560"
-                    },
-                    "security": "tls",
-                    "tlsSettings": {
-                        "serverName": "pLaiN-sNOW-99b7.sHAHAb4275k.WoRKers.DeV",
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "http/1.1"
-                        ],
-                        "echConfigList": "jsdeliver.com+udp://8.8.8.8"
-                    },
-                    "sockopt": {
-                        "domainStrategy": "UseIP",
-                        "happyEyeballs": {
-                            "tryDelayMs": 250,
-                            "prioritizeIPv6": false,
-                            "interleave": 2,
-                            "maxConcurrentTry": 4
-                        }
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "protocol": "dns",
-                "settings": {
-                    "rules": [
-                        {
-                            "action": "hijack"
-                        }
-                    ]
-                },
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {
-                    "domainStrategy": "UseIP"
-                },
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
                 {
-                    "inboundTag": [
-                        "mixed-in"
-                    ],
-                    "port": 53,
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns-in"
-                    ],
-                    "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "remote-dns"
-                    ],
-                    "outboundTag": "proxy",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "dns"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "network": "udp",
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
-                    "network": "tcp",
-                    "outboundTag": "proxy",
-                    "type": "field"
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
                 }
-            ]
-        },
-        "policy": {
-            "levels": {
-                "0": {
-                    "connIdle": 300,
-                    "handshake": 4,
-                    "uplinkOnly": 1,
-                    "downlinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
+              ]
             }
+          ]
         },
-        "stats": {}
-    }
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-3 (172.67.235.247) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-4 (172.67.209.231) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-5 (104.24.208.207) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-6 (104.17.200.125) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-7 (104.16.239.226) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-8 (104.24.79.87) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-9 (172.67.75.47) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-10 (104.25.29.148) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-11 (104.18.103.68) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-12 (104.21.6.172) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-13 (104.24.208.42) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-14 (104.21.62.169) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-15 (104.24.37.11) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-16 (104.16.145.49) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-17 (185.18.184.191) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-18 (172.67.168.0) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-19 (104.25.132.179) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
+]
+
+// ===== 🇩🇪 Frankfurt-20 (104.25.7.212) =====
+[
+  {
+    "remarks": "💦 10 - VLESS - Domain : 2096",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.16.239.226"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.16.239.226",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "df2698df-8a36-4bf0-87c4-fcc4430eab83",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "plain-snow-99b7.shahab4275k.workers.dev",
+            "path": "/eyJqdW5rIjoibzlqS0FBNm12TSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE4NS4yMzMuODEuMjA3Il19?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "PLaiN-SNOw-99B7.sHAhaB4275K.worKeRS.Dev",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  }
 ]
