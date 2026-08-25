@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🇫🇷 France-1",
+    "remarks": "🇩🇪 Germany-1",
     "version": {
       "min": "26.2.6"
     },
@@ -76,11 +76,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -202,7 +202,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-2",
+    "remarks": "🇩🇪 Germany-2",
     "version": {
       "min": "26.2.6"
     },
@@ -278,11 +278,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -404,7 +404,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-3",
+    "remarks": "🇩🇪 Germany-3",
     "version": {
       "min": "26.2.6"
     },
@@ -480,11 +480,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -606,7 +606,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-4",
+    "remarks": "🇩🇪 Germany-4",
     "version": {
       "min": "26.2.6"
     },
@@ -682,11 +682,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -808,7 +808,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-5",
+    "remarks": "🇩🇪 Germany-5",
     "version": {
       "min": "26.2.6"
     },
@@ -884,11 +884,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1010,7 +1010,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-6",
+    "remarks": "🇩🇪 Germany-6",
     "version": {
       "min": "26.2.6"
     },
@@ -1086,11 +1086,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1212,7 +1212,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-7",
+    "remarks": "🇩🇪 Germany-7",
     "version": {
       "min": "26.2.6"
     },
@@ -1288,11 +1288,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1414,7 +1414,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-8",
+    "remarks": "🇩🇪 Germany-8",
     "version": {
       "min": "26.2.6"
     },
@@ -1490,11 +1490,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1616,7 +1616,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-9",
+    "remarks": "🇩🇪 Germany-9",
     "version": {
       "min": "26.2.6"
     },
@@ -1692,11 +1692,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1818,7 +1818,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-10",
+    "remarks": "🇩🇪 Germany-10",
     "version": {
       "min": "26.2.6"
     },
@@ -1894,11 +1894,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2020,7 +2020,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-11",
+    "remarks": "🇩🇪 Germany-11",
     "version": {
       "min": "26.2.6"
     },
@@ -2096,11 +2096,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2222,7 +2222,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-12",
+    "remarks": "🇩🇪 Germany-12",
     "version": {
       "min": "26.2.6"
     },
@@ -2298,11 +2298,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2424,7 +2424,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-13",
+    "remarks": "🇩🇪 Germany-13",
     "version": {
       "min": "26.2.6"
     },
@@ -2500,11 +2500,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2626,7 +2626,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-14",
+    "remarks": "🇩🇪 Germany-14",
     "version": {
       "min": "26.2.6"
     },
@@ -2702,11 +2702,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2828,7 +2828,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-15",
+    "remarks": "🇩🇪 Germany-15",
     "version": {
       "min": "26.2.6"
     },
@@ -2904,11 +2904,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3030,7 +3030,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-16",
+    "remarks": "🇩🇪 Germany-16",
     "version": {
       "min": "26.2.6"
     },
@@ -3106,11 +3106,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3232,7 +3232,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-17",
+    "remarks": "🇩🇪 Germany-17",
     "version": {
       "min": "26.2.6"
     },
@@ -3308,11 +3308,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3434,7 +3434,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-18",
+    "remarks": "🇩🇪 Germany-18",
     "version": {
       "min": "26.2.6"
     },
@@ -3510,11 +3510,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3636,7 +3636,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-19",
+    "remarks": "🇩🇪 Germany-19",
     "version": {
       "min": "26.2.6"
     },
@@ -3712,11 +3712,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3838,7 +3838,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇫🇷 France-20",
+    "remarks": "🇩🇪 Germany-20",
     "version": {
       "min": "26.2.6"
     },
@@ -3914,11 +3914,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoicUxEWnY3blltIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTYxLjk3LjY2LjE2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiZmdDNEhTdURuZWlwMiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE5NS41OC4zOC45Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-Snow-99B7.ShAhab4275K.wORKerS.DEv",
+            "serverName": "PlaIn-snow-99B7.SHahab4275K.wOrKERs.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
