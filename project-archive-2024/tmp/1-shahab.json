@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🇩🇪 Nuremberg-1",
+    "remarks": "🇳🇱 Amsterdam-1",
     "version": {
       "min": "26.2.6"
     },
@@ -76,11 +76,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -202,7 +202,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-2",
+    "remarks": "🇳🇱 Amsterdam-2",
     "version": {
       "min": "26.2.6"
     },
@@ -278,11 +278,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -404,7 +404,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-3",
+    "remarks": "🇳🇱 Amsterdam-3",
     "version": {
       "min": "26.2.6"
     },
@@ -480,11 +480,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -606,7 +606,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-4",
+    "remarks": "🇳🇱 Amsterdam-4",
     "version": {
       "min": "26.2.6"
     },
@@ -682,11 +682,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -808,7 +808,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-5",
+    "remarks": "🇳🇱 Amsterdam-5",
     "version": {
       "min": "26.2.6"
     },
@@ -884,11 +884,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1010,7 +1010,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-6",
+    "remarks": "🇳🇱 Amsterdam-6",
     "version": {
       "min": "26.2.6"
     },
@@ -1086,11 +1086,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1212,7 +1212,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-7",
+    "remarks": "🇳🇱 Amsterdam-7",
     "version": {
       "min": "26.2.6"
     },
@@ -1288,11 +1288,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1414,7 +1414,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-8",
+    "remarks": "🇳🇱 Amsterdam-8",
     "version": {
       "min": "26.2.6"
     },
@@ -1490,11 +1490,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1616,7 +1616,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-9",
+    "remarks": "🇳🇱 Amsterdam-9",
     "version": {
       "min": "26.2.6"
     },
@@ -1692,11 +1692,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1818,7 +1818,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-10",
+    "remarks": "🇳🇱 Amsterdam-10",
     "version": {
       "min": "26.2.6"
     },
@@ -1894,11 +1894,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2020,7 +2020,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-11",
+    "remarks": "🇳🇱 Amsterdam-11",
     "version": {
       "min": "26.2.6"
     },
@@ -2096,11 +2096,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2222,7 +2222,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-12",
+    "remarks": "🇳🇱 Amsterdam-12",
     "version": {
       "min": "26.2.6"
     },
@@ -2298,11 +2298,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2424,7 +2424,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-13",
+    "remarks": "🇳🇱 Amsterdam-13",
     "version": {
       "min": "26.2.6"
     },
@@ -2500,11 +2500,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2626,7 +2626,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-14",
+    "remarks": "🇳🇱 Amsterdam-14",
     "version": {
       "min": "26.2.6"
     },
@@ -2702,11 +2702,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2828,7 +2828,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-15",
+    "remarks": "🇳🇱 Amsterdam-15",
     "version": {
       "min": "26.2.6"
     },
@@ -2904,11 +2904,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3030,7 +3030,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-16",
+    "remarks": "🇳🇱 Amsterdam-16",
     "version": {
       "min": "26.2.6"
     },
@@ -3106,11 +3106,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3232,7 +3232,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-17",
+    "remarks": "🇳🇱 Amsterdam-17",
     "version": {
       "min": "26.2.6"
     },
@@ -3308,11 +3308,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3434,7 +3434,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-18",
+    "remarks": "🇳🇱 Amsterdam-18",
     "version": {
       "min": "26.2.6"
     },
@@ -3510,11 +3510,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3636,7 +3636,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-19",
+    "remarks": "🇳🇱 Amsterdam-19",
     "version": {
       "min": "26.2.6"
     },
@@ -3712,11 +3712,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3838,7 +3838,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-20",
+    "remarks": "🇳🇱 Amsterdam-20",
     "version": {
       "min": "26.2.6"
     },
@@ -3914,11 +3914,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoidmJDSjdTYUdCamciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI4OS41OC40MC4xNzciXX0=?ed=2560"
+            "path": "/eyJqdW5rIjoiZDh2S2Z0QWVNUk00UCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjQ1LjQzLjg5LjIzNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "PlaIn-SnoW-99B7.ShahaB4275K.woRkErs.dEv",
+            "serverName": "pLaIN-sNOW-99b7.sHahaB4275k.Workers.DEv",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
