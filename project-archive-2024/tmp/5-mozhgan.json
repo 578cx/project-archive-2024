@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🇩🇪 Nuremberg-1",
+    "remarks": "🇫🇷 France-1",
     "version": {
       "min": "26.2.6"
     },
@@ -16,7 +16,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.16.116.123"
+            "full:104.18.179.184"
           ],
           "skipFallback": true
         }
@@ -26,7 +26,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -44,7 +44,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -61,8 +61,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.16.116.123",
-              "port": 2096,
+              "address": "104.18.179.184",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -76,16 +76,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -202,7 +201,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-2",
+    "remarks": "🇫🇷 France-2",
     "version": {
       "min": "26.2.6"
     },
@@ -218,7 +217,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.129.187"
+            "full:172.67.144.18"
           ],
           "skipFallback": true
         }
@@ -228,7 +227,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -246,7 +245,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -263,8 +262,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.129.187",
-              "port": 2096,
+              "address": "172.67.144.18",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -278,16 +277,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -404,7 +402,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-3",
+    "remarks": "🇫🇷 France-3",
     "version": {
       "min": "26.2.6"
     },
@@ -420,7 +418,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:172.67.235.247"
+            "full:104.16.248.112"
           ],
           "skipFallback": true
         }
@@ -430,7 +428,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -448,7 +446,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -465,8 +463,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "172.67.235.247",
-              "port": 2096,
+              "address": "104.16.248.112",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -480,16 +478,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -606,7 +603,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-4",
+    "remarks": "🇫🇷 France-4",
     "version": {
       "min": "26.2.6"
     },
@@ -622,7 +619,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:172.67.209.231"
+            "full:185.162.228.49"
           ],
           "skipFallback": true
         }
@@ -632,7 +629,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -650,7 +647,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -667,8 +664,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "172.67.209.231",
-              "port": 2096,
+              "address": "185.162.228.49",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -682,16 +679,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -808,7 +804,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-5",
+    "remarks": "🇫🇷 France-5",
     "version": {
       "min": "26.2.6"
     },
@@ -824,7 +820,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.208.207"
+            "full:104.16.15.122"
           ],
           "skipFallback": true
         }
@@ -834,7 +830,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -852,7 +848,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -869,8 +865,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.208.207",
-              "port": 2096,
+              "address": "104.16.15.122",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -884,16 +880,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1010,7 +1005,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-6",
+    "remarks": "🇫🇷 France-6",
     "version": {
       "min": "26.2.6"
     },
@@ -1026,7 +1021,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.17.200.125"
+            "full:172.67.64.50"
           ],
           "skipFallback": true
         }
@@ -1036,7 +1031,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -1054,7 +1049,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -1071,8 +1066,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.17.200.125",
-              "port": 2096,
+              "address": "172.67.64.50",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -1086,16 +1081,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1212,7 +1206,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-7",
+    "remarks": "🇫🇷 France-7",
     "version": {
       "min": "26.2.6"
     },
@@ -1228,7 +1222,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.16.239.226"
+            "full:172.64.67.114"
           ],
           "skipFallback": true
         }
@@ -1238,7 +1232,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -1256,7 +1250,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -1273,8 +1267,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.16.239.226",
-              "port": 2096,
+              "address": "172.64.67.114",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -1288,16 +1282,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1414,7 +1407,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-8",
+    "remarks": "🇫🇷 France-8",
     "version": {
       "min": "26.2.6"
     },
@@ -1430,7 +1423,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.79.87"
+            "full:104.21.63.98"
           ],
           "skipFallback": true
         }
@@ -1440,7 +1433,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -1458,7 +1451,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -1475,8 +1468,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.79.87",
-              "port": 2096,
+              "address": "104.21.63.98",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -1490,16 +1483,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1616,7 +1608,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-9",
+    "remarks": "🇫🇷 France-9",
     "version": {
       "min": "26.2.6"
     },
@@ -1632,7 +1624,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:172.67.75.47"
+            "full:104.25.43.222"
           ],
           "skipFallback": true
         }
@@ -1642,7 +1634,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -1660,7 +1652,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -1677,8 +1669,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "172.67.75.47",
-              "port": 2096,
+              "address": "104.25.43.222",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -1692,16 +1684,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1818,7 +1809,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-10",
+    "remarks": "🇫🇷 France-10",
     "version": {
       "min": "26.2.6"
     },
@@ -1834,7 +1825,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.29.148"
+            "full:104.16.94.14"
           ],
           "skipFallback": true
         }
@@ -1844,7 +1835,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -1862,7 +1853,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -1879,8 +1870,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.29.148",
-              "port": 2096,
+              "address": "104.16.94.14",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -1894,16 +1885,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2020,7 +2010,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-11",
+    "remarks": "🇫🇷 France-11",
     "version": {
       "min": "26.2.6"
     },
@@ -2036,7 +2026,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.18.103.68"
+            "full:104.25.152.183"
           ],
           "skipFallback": true
         }
@@ -2046,7 +2036,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -2064,7 +2054,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -2081,8 +2071,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.18.103.68",
-              "port": 2096,
+              "address": "104.25.152.183",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -2096,16 +2086,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2222,7 +2211,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-12",
+    "remarks": "🇫🇷 France-12",
     "version": {
       "min": "26.2.6"
     },
@@ -2238,7 +2227,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.21.6.172"
+            "full:104.20.4.116"
           ],
           "skipFallback": true
         }
@@ -2248,7 +2237,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -2266,7 +2255,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -2283,8 +2272,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.21.6.172",
-              "port": 2096,
+              "address": "104.20.4.116",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -2298,16 +2287,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2424,7 +2412,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-13",
+    "remarks": "🇫🇷 France-13",
     "version": {
       "min": "26.2.6"
     },
@@ -2440,7 +2428,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.208.42"
+            "full:104.21.230.109"
           ],
           "skipFallback": true
         }
@@ -2450,7 +2438,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -2468,7 +2456,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -2485,8 +2473,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.208.42",
-              "port": 2096,
+              "address": "104.21.230.109",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -2500,16 +2488,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2626,7 +2613,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-14",
+    "remarks": "🇫🇷 France-14",
     "version": {
       "min": "26.2.6"
     },
@@ -2642,7 +2629,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.21.62.169"
+            "full:104.24.197.35"
           ],
           "skipFallback": true
         }
@@ -2652,7 +2639,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -2670,7 +2657,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -2687,8 +2674,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.21.62.169",
-              "port": 2096,
+              "address": "104.24.197.35",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -2702,16 +2689,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2828,7 +2814,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-15",
+    "remarks": "🇫🇷 France-15",
     "version": {
       "min": "26.2.6"
     },
@@ -2844,7 +2830,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.37.11"
+            "full:172.66.171.248"
           ],
           "skipFallback": true
         }
@@ -2854,7 +2840,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -2872,7 +2858,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -2889,8 +2875,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.37.11",
-              "port": 2096,
+              "address": "172.66.171.248",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -2904,16 +2890,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -3030,7 +3015,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-16",
+    "remarks": "🇫🇷 France-16",
     "version": {
       "min": "26.2.6"
     },
@@ -3046,7 +3031,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.16.145.49"
+            "full:104.18.79.160"
           ],
           "skipFallback": true
         }
@@ -3056,7 +3041,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -3074,7 +3059,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -3091,8 +3076,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.16.145.49",
-              "port": 2096,
+              "address": "104.18.79.160",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -3106,16 +3091,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -3232,7 +3216,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-17",
+    "remarks": "🇫🇷 France-17",
     "version": {
       "min": "26.2.6"
     },
@@ -3248,7 +3232,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:185.18.184.191"
+            "full:159.246.55.255"
           ],
           "skipFallback": true
         }
@@ -3258,7 +3242,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -3276,7 +3260,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -3293,8 +3277,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "185.18.184.191",
-              "port": 2096,
+              "address": "159.246.55.255",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -3308,16 +3292,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -3434,7 +3417,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-18",
+    "remarks": "🇫🇷 France-18",
     "version": {
       "min": "26.2.6"
     },
@@ -3450,7 +3433,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:172.67.168.0"
+            "full:104.24.8.21"
           ],
           "skipFallback": true
         }
@@ -3460,7 +3443,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -3478,7 +3461,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -3495,8 +3478,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "172.67.168.0",
-              "port": 2096,
+              "address": "104.24.8.21",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -3510,16 +3493,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -3636,7 +3618,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-19",
+    "remarks": "🇫🇷 France-19",
     "version": {
       "min": "26.2.6"
     },
@@ -3652,7 +3634,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.132.179"
+            "full:104.16.37.191"
           ],
           "skipFallback": true
         }
@@ -3662,7 +3644,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -3680,7 +3662,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -3697,8 +3679,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.132.179",
-              "port": 2096,
+              "address": "104.16.37.191",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -3712,16 +3694,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -3838,7 +3819,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Nuremberg-20",
+    "remarks": "🇫🇷 France-20",
     "version": {
       "min": "26.2.6"
     },
@@ -3854,7 +3835,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.7.212"
+            "full:172.67.111.31"
           ],
           "skipFallback": true
         }
@@ -3864,7 +3845,7 @@
     },
     "inbounds": [
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10808,
         "protocol": "mixed",
         "settings": {
@@ -3882,7 +3863,7 @@
         "tag": "mixed-in"
       },
       {
-        "listen": "0.0.0.0",
+        "listen": "127.0.0.1",
         "port": 10853,
         "protocol": "dokodemo-door",
         "settings": {
@@ -3899,8 +3880,8 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.7.212",
-              "port": 2096,
+              "address": "172.67.111.31",
+              "port": 443,
               "users": [
                 {
                   "id": "ace72a48-15ff-4d8f-97cd-3a14f4cbb24c",
@@ -3914,16 +3895,15 @@
           "network": "ws",
           "wsSettings": {
             "host": "muddy-silence-7d65.mozhgan786nx.workers.dev",
-            "path": "/eyJqdW5rIjoiOVFYYmhRTWI4cyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjU4LjQwLjE3NyJdfQ==?ed=2560"
+            "path": "/eyJqdW5rIjoiUVNYYUJkdzY3b3poVHptUCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE2MS45Ny42Ni4xNiJdfQ==?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "muDdY-SIlEnce-7D65.mOzHGaN786nX.WORKERS.dEv",
+            "serverName": "mUddy-SIlEnCe-7d65.Mozhgan786nX.woRkers.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
-            ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            ]
           },
           "sockopt": {
             "domainStrategy": "UseIP",
