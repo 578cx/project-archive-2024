@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🇩🇪 Germany-1",
+    "remarks": "🇩🇪 test-1",
     "version": {
       "min": "26.2.6"
     },
@@ -76,11 +76,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -277,11 +277,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -478,11 +478,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -679,11 +679,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -880,11 +880,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1081,11 +1081,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1282,11 +1282,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1483,11 +1483,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1684,11 +1684,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -1885,11 +1885,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2086,11 +2086,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2287,11 +2287,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2488,11 +2488,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2689,11 +2689,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -2890,11 +2890,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3091,11 +3091,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3292,11 +3292,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3493,11 +3493,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3694,11 +3694,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
@@ -3895,11 +3895,11 @@
           "network": "ws",
           "wsSettings": {
             "host": "plain-snow-99b7.shahab4275k.workers.dev",
-            "path": "/eyJqdW5rIjoiSllPRHVJRHB1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
+            "path": "/eyJqdW5rIjoiS0RPMXNPSlU3M0w1IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiNDUuNDMuODkuMjM2Il19?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "pLAIn-SNOw-99b7.ShAHAb4275k.workeRs.dEV",
+            "serverName": "plAIN-SnoW-99b7.SHAHaB4275k.workERS.dEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
