@@ -1008,5 +1008,1015 @@
       }
     },
     "stats": {}
+  },
+    {
+    "remarks": "🇫🇷 France1",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.21.232.0"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.21.232.0",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a602e2d6-fe68-4fdc-9812-a21a8f99e0b1",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "vry4xu-mtg76qtou51p8ai.2y1d1cgrk4xitropk9b6.workers.dev",
+            "path": "/vl/r2laTXkbwuzvzEcSmPannVZg9WK?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "vry4xU-MTg76qtou51P8AI.2Y1D1CGrK4xITRopk9b6.workERs.DEv",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇷 France2",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.19.31.227"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.19.31.227",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a602e2d6-fe68-4fdc-9812-a21a8f99e0b1",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "vry4xu-mtg76qtou51p8ai.2y1d1cgrk4xitropk9b6.workers.dev",
+            "path": "/vl/r2laTXkbwuzvzEcSmPannVZg9WK?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "vry4xU-MTg76qtou51P8AI.2Y1D1CGrK4xITRopk9b6.workERs.DEv",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇷 France3",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.18.147.34"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.18.147.34",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a602e2d6-fe68-4fdc-9812-a21a8f99e0b1",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "vry4xu-mtg76qtou51p8ai.2y1d1cgrk4xitropk9b6.workers.dev",
+            "path": "/vl/r2laTXkbwuzvzEcSmPannVZg9WK?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "vry4xU-MTg76qtou51P8AI.2Y1D1CGrK4xITRopk9b6.workERs.DEv",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇷 France4",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.24.188.106"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.24.188.106",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a602e2d6-fe68-4fdc-9812-a21a8f99e0b1",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "vry4xu-mtg76qtou51p8ai.2y1d1cgrk4xitropk9b6.workers.dev",
+            "path": "/vl/r2laTXkbwuzvzEcSmPannVZg9WK?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "vry4xU-MTg76qtou51P8AI.2Y1D1CGrK4xITRopk9b6.workERs.DEv",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
+  },
+  {
+    "remarks": "🇫🇷 France5",
+    "version": {
+      "min": "26.2.6"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "dns": {
+      "servers": [
+        {
+          "address": "https://8.8.8.8/dns-query",
+          "tag": "remote-dns"
+        },
+        {
+          "address": "8.8.8.8",
+          "domains": [
+            "full:104.25.59.167"
+          ],
+          "skipFallback": true
+        }
+      ],
+      "queryStrategy": "UseIP",
+      "tag": "dns"
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "mixed",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "mixed-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 10853,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.1.1.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.25.59.167",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a602e2d6-fe68-4fdc-9812-a21a8f99e0b1",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "wsSettings": {
+            "host": "vry4xu-mtg76qtou51p8ai.2y1d1cgrk4xitropk9b6.workers.dev",
+            "path": "/vl/r2laTXkbwuzvzEcSmPannVZg9WK?ed=2560"
+          },
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "vry4xU-MTg76qtou51P8AI.2Y1D1CGrK4xITRopk9b6.workERs.DEv",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+          },
+          "sockopt": {
+            "domainStrategy": "UseIP",
+            "happyEyeballs": {
+              "tryDelayMs": 250,
+              "prioritizeIPv6": false,
+              "interleave": 2,
+              "maxConcurrentTry": 4
+            }
+          }
+        },
+        "tag": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "rules": [
+            {
+              "action": "hijack"
+            }
+          ]
+        },
+        "tag": "dns-out"
+      },
+      {
+        "protocol": "freedom",
+        "settings": {
+          "domainStrategy": "UseIP"
+        },
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "settings": {
+          "response": {
+            "type": "http"
+          }
+        },
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "inboundTag": [
+            "mixed-in"
+          ],
+          "port": 53,
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "remote-dns"
+          ],
+          "outboundTag": "proxy",
+          "type": "field"
+        },
+        {
+          "inboundTag": [
+            "dns"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "geoip:private"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "network": "udp",
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "network": "tcp",
+          "outboundTag": "proxy",
+          "type": "field"
+        }
+      ]
+    },
+    "policy": {
+      "levels": {
+        "0": {
+          "connIdle": 300,
+          "handshake": 4,
+          "uplinkOnly": 1,
+          "downlinkOnly": 1
+        }
+      },
+      "system": {
+        "statsOutboundUplink": true,
+        "statsOutboundDownlink": true
+      }
+    },
+    "stats": {}
   }
 ]
