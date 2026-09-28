@@ -218,7 +218,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:162.159.36.136"
+            "full:104.19.253.207"
           ],
           "skipFallback": true
         }
@@ -263,7 +263,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "162.159.36.136",
+              "address": "104.19.253.207",
               "port": 443,
               "users": [
                 {
