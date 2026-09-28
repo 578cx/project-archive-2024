@@ -16,7 +16,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.19.120.99"
+            "full:104.19.209.26"
           ],
           "skipFallback": true
         }
@@ -61,7 +61,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.19.120.99",
+              "address": "104.19.209.26",
               "port": 443,
               "users": [
                 {
@@ -218,7 +218,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.19.253.207"
+            "full:104.27.77.126"
           ],
           "skipFallback": true
         }
@@ -263,7 +263,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.19.253.207",
+              "address": "104.27.77.126",
               "port": 443,
               "users": [
                 {
@@ -420,7 +420,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:185.148.104.32"
+            "full:104.25.89.87"
           ],
           "skipFallback": true
         }
@@ -465,7 +465,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "185.148.104.32",
+              "address": "104.25.89.87",
               "port": 443,
               "users": [
                 {
@@ -622,7 +622,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.17.120.90"
+            "full:185.7.240.172"
           ],
           "skipFallback": true
         }
@@ -667,7 +667,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.17.120.90",
+              "address": "185.7.240.172",
               "port": 443,
               "users": [
                 {
@@ -824,7 +824,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.58.141"
+            "full:104.17.217.182"
           ],
           "skipFallback": true
         }
@@ -869,7 +869,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.58.141",
+              "address": "104.17.217.182",
               "port": 443,
               "users": [
                 {
