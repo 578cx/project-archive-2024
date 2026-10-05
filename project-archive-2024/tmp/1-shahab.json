@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🇩🇪 Germany-1",
+    "remarks": "🇩🇪 Germany1",
     "version": {
       "min": "26.2.6"
     },
@@ -16,7 +16,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.19.209.26"
+            "full:172.66.217.78"
           ],
           "skipFallback": true
         }
@@ -61,7 +61,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.19.209.26",
+              "address": "172.66.217.78",
               "port": 443,
               "users": [
                 {
@@ -76,16 +76,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "9kjk41tkv91-jcr3s9wdzug.shahab5964.workers.dev",
-            "path": "/vl/drhUWfFL0rDESNnAzQl0ClygAWi?ed=2560"
+            "path": "/vl/YPMXR1dzYEsYnrlP?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9KJk41tkV91-jCR3s9wDZug.shAHaB5964.woRkers.DEv",
+            "serverName": "9kjk41TKV91-Jcr3S9wdzUg.SHaHaB5964.WOrkERs.DEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "rawgit.com+udp://1.1.1.1"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -202,7 +202,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Germany-2",
+    "remarks": "🇩🇪 Germany2",
     "version": {
       "min": "26.2.6"
     },
@@ -218,7 +218,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.27.77.126"
+            "full:104.16.117.250"
           ],
           "skipFallback": true
         }
@@ -263,7 +263,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.27.77.126",
+              "address": "104.16.117.250",
               "port": 443,
               "users": [
                 {
@@ -278,16 +278,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "9kjk41tkv91-jcr3s9wdzug.shahab5964.workers.dev",
-            "path": "/vl/drhUWfFL0rDESNnAzQl0ClygAWi?ed=2560"
+            "path": "/vl/YPMXR1dzYEsYnrlP?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9KJk41tkV91-jCR3s9wDZug.shAHaB5964.woRkers.DEv",
+            "serverName": "9kjk41TKV91-Jcr3S9wdzUg.SHaHaB5964.WOrkERs.DEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "rawgit.com+udp://1.1.1.1"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -404,7 +404,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Germany-3",
+    "remarks": "🇩🇪 Germany3",
     "version": {
       "min": "26.2.6"
     },
@@ -420,7 +420,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.89.87"
+            "full:104.26.12.229"
           ],
           "skipFallback": true
         }
@@ -465,7 +465,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.89.87",
+              "address": "104.26.12.229",
               "port": 443,
               "users": [
                 {
@@ -480,16 +480,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "9kjk41tkv91-jcr3s9wdzug.shahab5964.workers.dev",
-            "path": "/vl/drhUWfFL0rDESNnAzQl0ClygAWi?ed=2560"
+            "path": "/vl/YPMXR1dzYEsYnrlP?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9KJk41tkV91-jCR3s9wDZug.shAHaB5964.woRkers.DEv",
+            "serverName": "9kjk41TKV91-Jcr3S9wdzUg.SHaHaB5964.WOrkERs.DEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "rawgit.com+udp://1.1.1.1"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -606,7 +606,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Germany-4",
+    "remarks": "🇩🇪 Germany4",
     "version": {
       "min": "26.2.6"
     },
@@ -622,7 +622,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:185.7.240.172"
+            "full:104.24.68.24"
           ],
           "skipFallback": true
         }
@@ -667,7 +667,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "185.7.240.172",
+              "address": "104.24.68.24",
               "port": 443,
               "users": [
                 {
@@ -682,16 +682,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "9kjk41tkv91-jcr3s9wdzug.shahab5964.workers.dev",
-            "path": "/vl/drhUWfFL0rDESNnAzQl0ClygAWi?ed=2560"
+            "path": "/vl/YPMXR1dzYEsYnrlP?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9KJk41tkV91-jCR3s9wDZug.shAHaB5964.woRkers.DEv",
+            "serverName": "9kjk41TKV91-Jcr3S9wdzUg.SHaHaB5964.WOrkERs.DEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "rawgit.com+udp://1.1.1.1"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -808,7 +808,7 @@
     "stats": {}
   },
   {
-    "remarks": "🇩🇪 Germany-5",
+    "remarks": "🇩🇪 Germany5",
     "version": {
       "min": "26.2.6"
     },
@@ -824,7 +824,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.17.217.182"
+            "full:104.17.174.114"
           ],
           "skipFallback": true
         }
@@ -869,7 +869,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.17.217.182",
+              "address": "104.17.174.114",
               "port": 443,
               "users": [
                 {
@@ -884,16 +884,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "9kjk41tkv91-jcr3s9wdzug.shahab5964.workers.dev",
-            "path": "/vl/drhUWfFL0rDESNnAzQl0ClygAWi?ed=2560"
+            "path": "/vl/YPMXR1dzYEsYnrlP?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "9KJk41tkV91-jCR3s9wDZug.shAHaB5964.woRkers.DEv",
+            "serverName": "9kjk41TKV91-Jcr3S9wdzUg.SHaHaB5964.WOrkERs.DEV",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "rawgit.com+udp://1.1.1.1"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1009,7 +1009,8 @@
     },
     "stats": {}
   },
-    {
+  [
+  {
     "remarks": "🇫🇷 France1",
     "version": {
       "min": "26.2.6"
@@ -1026,7 +1027,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.21.232.0"
+            "full:172.67.96.221"
           ],
           "skipFallback": true
         }
@@ -1071,7 +1072,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.21.232.0",
+              "address": "172.67.96.221",
               "port": 443,
               "users": [
                 {
@@ -1086,16 +1087,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "u0gi6yyinqnwtpd7ohgfbkh6.shahab5964.workers.dev",
-            "path": "/vl/p5vnYT0pXEbraWC7D?ed=2560"
+            "path": "/vl/UhWufDtXeyIZe6kvRKQVcJ?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "U0gi6yYiNQnwtpD7oHgFbkh6.ShAHab5964.woRkerS.DEV",
+            "serverName": "U0gi6YyINqnwtpD7OhGFBkh6.sHahAb5964.woRKERs.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "jsdelivr.com+udp://8.8.8.8"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1228,7 +1229,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.19.31.227"
+            "full:104.25.181.128"
           ],
           "skipFallback": true
         }
@@ -1273,7 +1274,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.19.31.227",
+              "address": "104.25.181.128",
               "port": 443,
               "users": [
                 {
@@ -1288,16 +1289,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "u0gi6yyinqnwtpd7ohgfbkh6.shahab5964.workers.dev",
-            "path": "/vl/p5vnYT0pXEbraWC7D?ed=2560"
+            "path": "/vl/UhWufDtXeyIZe6kvRKQVcJ?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "U0gi6yYiNQnwtpD7oHgFbkh6.ShAHab5964.woRkerS.DEV",
+            "serverName": "U0gi6YyINqnwtpD7OhGFBkh6.sHahAb5964.woRKERs.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "jsdelivr.com+udp://8.8.8.8"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1430,7 +1431,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.18.147.34"
+            "full:172.66.176.43"
           ],
           "skipFallback": true
         }
@@ -1475,7 +1476,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.18.147.34",
+              "address": "172.66.176.43",
               "port": 443,
               "users": [
                 {
@@ -1490,16 +1491,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "u0gi6yyinqnwtpd7ohgfbkh6.shahab5964.workers.dev",
-            "path": "/vl/p5vnYT0pXEbraWC7D?ed=2560"
+            "path": "/vl/UhWufDtXeyIZe6kvRKQVcJ?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "U0gi6yYiNQnwtpD7oHgFbkh6.ShAHab5964.woRkerS.DEV",
+            "serverName": "U0gi6YyINqnwtpD7OhGFBkh6.sHahAb5964.woRKERs.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "jsdelivr.com+udp://8.8.8.8"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1632,7 +1633,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.24.188.106"
+            "full:154.194.12.207"
           ],
           "skipFallback": true
         }
@@ -1677,7 +1678,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.24.188.106",
+              "address": "154.194.12.207",
               "port": 443,
               "users": [
                 {
@@ -1692,16 +1693,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "u0gi6yyinqnwtpd7ohgfbkh6.shahab5964.workers.dev",
-            "path": "/vl/p5vnYT0pXEbraWC7D?ed=2560"
+            "path": "/vl/UhWufDtXeyIZe6kvRKQVcJ?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "U0gi6yYiNQnwtpD7oHgFbkh6.ShAHab5964.woRkerS.DEV",
+            "serverName": "U0gi6YyINqnwtpD7OhGFBkh6.sHahAb5964.woRKERs.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "jsdelivr.com+udp://8.8.8.8"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -1834,7 +1835,7 @@
         {
           "address": "8.8.8.8",
           "domains": [
-            "full:104.25.59.167"
+            "full:104.16.148.194"
           ],
           "skipFallback": true
         }
@@ -1879,7 +1880,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.25.59.167",
+              "address": "104.16.148.194",
               "port": 443,
               "users": [
                 {
@@ -1894,16 +1895,16 @@
           "network": "ws",
           "wsSettings": {
             "host": "u0gi6yyinqnwtpd7ohgfbkh6.shahab5964.workers.dev",
-            "path": "/vl/p5vnYT0pXEbraWC7D?ed=2560"
+            "path": "/vl/UhWufDtXeyIZe6kvRKQVcJ?ed=2560"
           },
           "security": "tls",
           "tlsSettings": {
-            "serverName": "U0gi6yYiNQnwtpD7oHgFbkh6.ShAHab5964.woRkerS.DEV",
+            "serverName": "U0gi6YyINqnwtpD7OhGFBkh6.sHahAb5964.woRKERs.dev",
             "fingerprint": "chrome",
             "alpn": [
               "http/1.1"
             ],
-            "echConfigList": "jsdeliver.com+udp://8.8.8.8"
+            "echConfigList": "jsdelivr.com+udp://8.8.8.8"
           },
           "sockopt": {
             "domainStrategy": "UseIP",
@@ -2019,4 +2020,5 @@
     },
     "stats": {}
   }
+]
 ]
