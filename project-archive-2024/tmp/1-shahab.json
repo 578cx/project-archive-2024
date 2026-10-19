@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "🔑 Server-1",
+    "remarks": "🇩🇪 Germany-1",
     "version": {
       "min": "26.2.6"
     },
@@ -202,7 +202,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-2",
+    "remarks": "🇩🇪 Germany-2",
     "version": {
       "min": "26.2.6"
     },
@@ -404,7 +404,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-3",
+    "remarks": "🇸🇪 Sweden-3",
     "version": {
       "min": "26.2.6"
     },
@@ -606,7 +606,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-4",
+    "remarks": "🇩🇪 Germany-4",
     "version": {
       "min": "26.2.6"
     },
@@ -808,7 +808,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-5",
+    "remarks": "🇩🇪 Germany-5",
     "version": {
       "min": "26.2.6"
     },
@@ -1010,7 +1010,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-6",
+    "remarks": "🇩🇪 Germany-6",
     "version": {
       "min": "26.2.6"
     },
@@ -1212,7 +1212,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-7",
+    "remarks": "🇸🇪 Sweden-7",
     "version": {
       "min": "26.2.6"
     },
@@ -1414,7 +1414,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-8",
+    "remarks": "🇩🇪 Germany-8",
     "version": {
       "min": "26.2.6"
     },
@@ -1616,7 +1616,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-9",
+    "remarks": "🇩🇪 Germany-9",
     "version": {
       "min": "26.2.6"
     },
@@ -1818,7 +1818,7 @@
     "stats": {}
   },
   {
-    "remarks": "🔑 Server-10",
+    "remarks": "🇩🇪 Germany-10",
     "version": {
       "min": "26.2.6"
     },
